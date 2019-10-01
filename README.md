@@ -12,6 +12,7 @@ Intro to Julia
 - [Workflow tips][8]
 - [Style Guide][9]
 - [Creating a Julia Package][10]
+- [Calling R from Julia][11]
 
 [1]: https://julialang.org/
 [2]: https://docs.julialang.org/en/v1/manual/getting-started/
@@ -23,3 +24,4 @@ Intro to Julia
 [8]: https://docs.julialang.org/en/v1/manual/workflow-tips/
 [9]: https://docs.julialang.org/en/v1/manual/style-guide/
 [10]: https://julialang.github.io/Pkg.jl/v1/
+[11]: http://luiarthur.github.io/usingrcall

@@ -80,3 +80,27 @@ Z'Z
 
 # Use a package
 using Distributions
+
+f(x) = x + 1
+
+add_f(x, f) = f(x) + x
+
+# Multiple dispatch (requires type annotation)
+say_hi(x::String) = println("Hi, $(x)")
+say_hi(x::Int) = println("Hi, $(x + 1)")
+
+
+
+function readfile(fpath)
+  x = open(fpath, "r") do f
+    readlines(f)
+  end
+  return x
+end
+
+contents = readfile("names.txt")
+
+
+using RCall
+# Intro to RCall:
+# http://luiarthur.github.io/usingrcall

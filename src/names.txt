@@ -1,0 +1,4 @@
+name, age
+Arthur, 30
+Myke, 28
+Zach, 20
